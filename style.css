@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, ul, a, li, ul, article, header, footer, section, p {
+h1, h2, h3, h4, h5, h6, ul, a, li, ul, article, header, footer, section, p, form {
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ a {
     text-decoration: none;
 }
 
-li a:hover {
+a:hover {
     color: red;
 }
 
@@ -56,13 +56,13 @@ header {
     justify-content:center;
     background-color: #70798c;
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 nav {
     text-align: center;
     background-color: aliceblue;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 nav ul {
     display: flex;
@@ -73,32 +73,68 @@ nav ul {
     border-bottom: 1px solid red;
 }
 
+/*==============================
+Walk Events -- table
+=================================*/
+
+
+.walkEventsTable {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th, td { 
+    padding: 0 1rem;
+}
+
+.content {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.content > input {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.content:nth-child(2n) {
+    background-color:aqua;
+}
+
 
 /*==============================
 Footer
 =================================*/
 
 footer {
-    padding: 1em;
+    padding: 1rem;
     background-color: #70798c;
     text-align: center;
 }
 
 form {
-    padding: 1em;
+    padding: 1rem;
 }
 
 .newsletter {
-    padding: 1em;
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+#submit {
+    margin: 0.5rem;
+}
+
 /*==============================
 Media Queries
 =================================*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
 
  nav ul {
     display: block;
