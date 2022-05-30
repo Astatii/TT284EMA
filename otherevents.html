@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="K5687309">
+        <link rel="stylesheet" href="../stylesheets/style.css">
+        <Title>OU Walking Club</Title>
+    </head>
+
+
+    <body>
+
+        <!--===========================================
+            Header and Navigation
+        =============================================-->
+        <header>
+            <article class="logo">
+                <h1>OU Walking Club</h1>
+            </article>
+            <article class="login">
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </article>
+        </header>
+
+        <nav>
+            <ul>
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="addWalk.html">Walk Events</a></li>
+                <li><a href="otherevents.html">Other Events</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="walkEventResponsive.html">Responsive1</a></li>
+                <li><a href="othereventsresponsive.html">Responsive2</a></li>
+            </ul>
+        </nav>
+
+        <!--===========================================
+            Add Event
+        =============================================-->
+        
+        <section class="signupContainer">
+
+            <h1> Add Other Event </h1>
+
+            <form class="otherEvents" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            
+                <label for="eventname">Event Name:</label>
+                <input type="text" id="eventname" name="eventname"><br><br>
+                <label for="eventDate">Date:</label>
+                <input type="eventDate" id="eventDate" name="eventDate"><br><br>
+                <label for="eventType">Event Type:</label>
+                <input type="text" id="eventType" name="eventType"><br><br>
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time"><br><br>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location"><br><br>                
+                <input type="submit">
+            </form>
+                      
+        </section>
+
+        <!--===========================================
+            Published events (other)
+        =============================================-->
+
+        <section class="contentContainer">
+            <h1> Upcoming Events</h1>
+
+            <article class="contentNews">
+                <div class="image">
+                    <img src="../../wireframres/imageLargeSquare.jpg">
+                </div>
+                <div class="text">
+                    <table>
+                    <tr>
+                        <th>Event Name</th>
+                        <td>Theme Park</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>11 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td>11:00</th>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Charity Run</th>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Thorpe Wood</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
+                </div>
+            </article>
+            <article class="contentNews">
+                <div class="image">
+                    <img src="../../wireframres/imageLargeSquare.jpg">
+                </div>
+                <div class="text">
+                    <table>
+                    <tr>
+                        <th>Event Name</th>
+                        <td>Book reading session</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>17 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td>10:00</th>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Entertainment</th>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Library</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
+                </div>
+            </article>
+
+            
+
+         <!--===========================================
+            Footer
+        =============================================-->
+
+        <footer>
+
+            <article class="newsletter">
+                <h1 class="newsletterTitle">Sign up to receive news</h1>
+                <form class="footerForm" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <input type="submit" class="submit" id="submit" value="Submit">
+                </form>
+                <p>By signing up to our newsletter you are agreeing to receive communications from us.
+                    For more information, you can view our <span class="privacy"><a href ="#">Privacy Policy.</a></span>
+                </p>
+            </article>
+
+            
+        
+            <p>&#9400; 2022 - OU Walking Club</p>
+        </footer>
+
+
+    </body>
+</html>

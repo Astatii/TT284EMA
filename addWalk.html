@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="K5687309">
+        <link rel="stylesheet" href="../stylesheets/style.css">
+        <Title>OU Walking Club</Title>
+    </head>
+
+
+    <body>
+
+        <!--===========================================
+            Header and Navigation
+        =============================================-->
+        <header>
+            <article class="logo">
+                <h1>OU Walking Club</h1>
+            </article>
+            <article class="login">
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </article>
+        </header>
+
+        <nav>
+            <ul>
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="addWalk.html">Walk Events</a></li>
+                <li><a href="otherevents.html">Other Events</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="walkEventResponsive.html">Responsive1</a></li>
+                <li><a href="othereventsresponsive.html">Responsive2</a></li>
+            </ul>
+        </nav>
+
+        <!--===========================================
+            Add walk form
+        =============================================-->
+        
+        <section class="addWalkContainer">
+            <h1>Add a Walk</h1>
+
+            <form class="addWalkForm" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            
+                <label for="walkName">Walk Name:</label>
+                <input type="text" id="walkName" name="walkName"><br><br>
+       
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="startTime">Start Time:</label>
+                <input type="text" id="startTime" name="startTime"><br><br>
+
+                <label for="endTime">End Time:</label>
+                <input type="text" id="endTime" name="endTime"><br><br>
+
+                <label for="meetingPoint">Meeting Point:</label>
+                <input type="text" id="meetingPoint" name="meetingPoint"><br><br>
+
+                <label for="distance(km)">Distance (Km):</label>
+                <input type="text" id="distance(km)" name="distance(km)"><br><br>
+
+                <label for="leader">Leader:</label>
+                <input type="text" id="leader" name="leader"><br><br>
+
+                <label for="comments">Comments:</label>
+                <input type="text" id="comments" name="comments"><br><br>
+
+                <label for="status">Status:</label>
+                <input type="text" id="status" name="status"><br><br>
+
+                <label for="submit">Submit:</label>
+                <input type="submit" id="submit" name="submit"><br><br>
+            </form>
+                    
+        </section>
+
+             <!--===========================================
+            Existing Walks
+        =============================================-->
+        <section class="approvedWalkContainer">
+            <h1> Existing Walks</h1>
+
+            <article class="contentNews">
+                <div class="image">
+                    <img src="../../wireframres/imageLargeSquare.jpg">
+                </div>
+                <div class="text">
+                    <table>
+                    <tr>
+                        <th>Walk Name</th>
+                        <td>Peterborough to Stamford</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>11 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Start Time</th>
+                        <td>11:00</th>
+                    </tr>
+                    <tr>
+                        <th>End Time</th>
+                        <td>14:00</th>
+                    </tr>
+                    <tr>
+                        <th>Meeting Point</th>
+                        <td>Town</th>
+                    </tr>
+                    <tr>
+                        <th>Distance (Km)</th>
+                        <td>5</th>
+                    </tr>
+                    <tr>
+                        <th>Leader</th>
+                        <td>Stephanie Coulton</th>
+                    </tr>
+                    <tr>
+                        <th>Comments</th>
+                        <td>Cold weather likely. Bring warm Clothes.</th>
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>Approved</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
+                </div>
+            </article>
+            <article class="contentNews">
+                <div class="image">
+                    <img src="../../wireframres/imageLargeSquare.jpg">
+                </div>
+                <div class="text">
+                    <table>
+                    <tr>
+                        <th>Walk Name</th>
+                        <td>Peterborough to Stamford</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>11 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Start Time</th>
+                        <td>11:00</th>
+                    </tr>
+                    <tr>
+                        <th>End Time</th>
+                        <td>14:00</th>
+                    </tr>
+                    <tr>
+                        <th>Meeting Point</th>
+                        <td>Town</th>
+                    </tr>
+                    <tr>
+                        <th>Distance (Km)</th>
+                        <td>5</th>
+                    </tr>
+                    <tr>
+                        <th>Leader</th>
+                        <td>Stephanie Coulton</th>
+                    </tr>
+                    <tr>
+                        <th>Comments</th>
+                        <td>Cold weather likely. Bring warm Clothes.</th>
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>Approved</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
+                </div>
+            </article>
+            <article class="contentNews">
+                <div class="image">
+                    <img src="../../wireframres/imageLargeSquare.jpg">
+                </div>
+                <div class="text">
+                    <table>
+                    <tr>
+                        <th>Walk Name</th>
+                        <td>Peterborough to Stamford</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>11 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Start Time</th>
+                        <td>11:00</th>
+                    </tr>
+                    <tr>
+                        <th>End Time</th>
+                        <td>14:00</th>
+                    </tr>
+                    <tr>
+                        <th>Meeting Point</th>
+                        <td>Town</th>
+                    </tr>
+                    <tr>
+                        <th>Distance (Km)</th>
+                        <td>5</th>
+                    </tr>
+                    <tr>
+                        <th>Leader</th>
+                        <td>Stephanie Coulton</th>
+                    </tr>
+                    <tr>
+                        <th>Comments</th>
+                        <td>Cold weather likely. Bring warm Clothes.</th>
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>Approved</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
+                </div>
+            </article>
+
+            </section>
+
+
+         <!--===========================================
+            Footer
+        =============================================-->
+
+        <footer>
+
+            <article class="newsletter">
+                <h1 class="newsletterTitle">Sign up to receive news</h1>
+                <form class="footerForm" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <input type="submit" class="submit" id="submit" value="Submit">
+                </form>
+                <p>By signing up to our newsletter you are agreeing to receive communications from us.
+                    For more information, you can view our <span class="privacy"><a href ="#">Privacy Policy.</a></span>
+                </p>
+            </article>
+        
+            <p>&#9400; 2022 - OU Walking Club</p>
+        </footer>
+
+
+    </body>
+</html>

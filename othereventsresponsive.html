@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="K5687309">
-        <link rel="stylesheet" href="../stylesheets/style.css">
+        <link rel="stylesheet" href="../stylesheets/responsive.css">
         <Title>OU Walking Club</Title>
     </head>
 
@@ -41,69 +41,103 @@
         </nav>
 
         <!--===========================================
-            Content
+            Add Event
         =============================================-->
         
+        <section class="signupContainer">
+
+            <h1> Add Other Event </h1>
+
+            <form class="otherEvents" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            
+                <label for="eventname">Event Name:</label>
+                <input type="text" id="eventname" name="eventname"><br><br>
+                <label for="eventDate">Date:</label>
+                <input type="eventDate" id="eventDate" name="eventDate"><br><br>
+                <label for="eventType">Event Type:</label>
+                <input type="text" id="eventType" name="eventType"><br><br>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location"><br><br>                
+                <input type="submit">
+            </form>
+                      
+        </section>
+
+        <!--===========================================
+            Published events (other)
+        =============================================-->
+
         <section class="contentContainer">
+            <h1> Upcoming Events</h1>
 
             <article class="contentNews">
                 <div class="image">
                     <img src="../../wireframres/imageLargeSquare.jpg">
                 </div>
                 <div class="text">
-                    <p>Vestibulum in nunc felis. Vestibulum eu risus metus, vitae imperdiet sapien? 
-                        In aliquam posuere bibendum. Phasellus iaculis, sem ut vulputate porta, 
-                        arcu urna porta dui, non adipiscing justo augue in elit. </p>
-                        <p>Added by User on 12 May (Available from 12 May - 14 May)</p>
-                        <a href ="#"> Announcements > Learn more</a>
+                    <table>
+                    <tr>
+                        <th>Event Name</th>
+                        <td>Theme Park</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>11 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td>11:00</th>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Charity Run</th>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Thorpe Wood</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
                 </div>
             </article>
-
-            <article class="contentEvents">
-                <div class="image">
-                    <img src="../../wireframres/imageLargeSquare.jpg">
-                </div>
-                <div class="text">
-                    <p>Vestibulum in nunc felis. Vestibulum eu risus metus, vitae imperdiet sapien? 
-                        In aliquam posuere bibendum. Phasellus iaculis, sem ut vulputate porta, 
-                        arcu urna porta dui, non adipiscing justo augue in elit.</p>
-                        <p>Added by Admin on 12 May (Available from 12 May - 14 May)</p>
-                        <a href ="#"> Walk Events > Learn more</a>
-                </div>
-            </article>
-
-            <article class="contentEvents">
-                <div class="image">
-                    <img src="../../wireframres/imageLargeSquare.jpg">
-                </div>
-                <div class="text">
-                    <p>Vestibulum in nunc felis. Vestibulum eu risus metus, vitae imperdiet sapien? 
-                        In aliquam posuere bibendum. Phasellus iaculis, sem ut vulputate porta, 
-                        arcu urna porta dui, non adipiscing justo augue in elit. </p>
-                        <p>Added by Admin on 12 May (Available from 12 May - 14 May)</p>
-                        <a href ="#"> Other Events > Learn more</a>
-
-                </div>
-            </article>
-
             <article class="contentNews">
                 <div class="image">
                     <img src="../../wireframres/imageLargeSquare.jpg">
                 </div>
                 <div class="text">
-                    <p>Vestibulum in nunc felis. Vestibulum eu risus metus, vitae imperdiet sapien? 
-                        In aliquam posuere bibendum. Phasellus iaculis, sem ut vulputate porta, 
-                        arcu urna porta dui, non adipiscing justo augue in elit. </p>
-                        <p>Added by User on 12 May (Available from 12 May - 14 May)</p>
-                        <a href ="#"> Announcements > Learn more</a>
+                    <table>
+                    <tr>
+                        <th>Event Name</th>
+                        <td>Book reading session</th>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>17 April 2022</th>
+                    </tr>
+                    <tr>
+                        <th>Time</th>
+                        <td>10:00</th>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>Entertainment</th>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>Library</th>
+                    </tr>
+                    </table>
+                </div>
+                <div class="controls">
+                    <button>Edit</button>
+                    <button>Remove</button>
                 </div>
             </article>
 
             
-
-        </section>
-
-
 
          <!--===========================================
             Footer
@@ -122,6 +156,8 @@
                     For more information, you can view our <span class="privacy"><a href ="#">Privacy Policy.</a></span>
                 </p>
             </article>
+
+            
         
             <p>&#9400; 2022 - OU Walking Club</p>
         </footer>
